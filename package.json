@@ -1,0 +1,23 @@
+{
+  "name": "autosite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.16.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@types/formidable": "^2.0.5",
+    "formidable": "^2.1.1",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security"
+  }
+}
