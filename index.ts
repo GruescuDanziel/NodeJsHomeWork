@@ -58,10 +58,10 @@ const convertCsvToJson = (csvData : string) =>{
     let lines : string[] = csvData.split("\n");
     let headers : string[] = lines[0].split(delimiter);
     let result : string[] = [];
-    let obj:any ={} ;
 
     for(let i=1;i<lines.length;i++){
 
+        let obj:any ={} ;
 
         let currentline=lines[i].split(delimiter);
     
